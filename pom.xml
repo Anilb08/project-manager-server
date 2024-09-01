@@ -101,11 +101,20 @@
  <version>1.4.6</version>
 </dependency>
 
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.30</version> <!-- or any compatible version -->
+</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
 	</dependencies>
+	
+	
+
 
 	<build>
 		<plugins>
